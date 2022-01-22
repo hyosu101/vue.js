@@ -1,12 +1,16 @@
 <template>
   <div class="app">
-    <Ground/>
+    <router-view />
+    <Bar />
   </div>
 </template>
 
 <script>
-import Ground from "./components/Ground.vue"
+import Bar from "./components/layout/Bar.vue";
+
 export default {
-  components:{Ground}
+  components: {
+    Bar,
+  },
 };
 </script>
