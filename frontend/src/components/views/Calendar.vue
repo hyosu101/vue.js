@@ -1,5 +1,5 @@
 <template>
-  <div>캘린더 페이지</div>
+  <div>캘린더</div>
 </template>
 
 <script>

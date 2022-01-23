@@ -1,17 +1,17 @@
 <template>
   <div class="ground">
-    <Header />
+    <MHeader />
     <Memo />
     <Footer />
   </div>
 </template>
 
 <script>
-import Header from "../layout/Header.vue";
+import MHeader from "../layout/MHeader.vue";
 import Footer from "../layout/Footer.vue";
-import Memo from "../Memo.vue";
+import Memo from "../layout/Memo.vue";
 
 export default {
-  components: { Header, Footer, Memo },
+  components: { MHeader, Footer, Memo },
 };
 </script>

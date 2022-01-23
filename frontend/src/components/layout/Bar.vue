@@ -61,16 +61,6 @@
 </template>
 
 <style lang="scss" scoped>
-* {
-  font-family: "Noto Sans KR", sans-serif;
-  margin: 0px;
-  padding: 0px;
-  text-decoration: none;
-  border-collapse: collapse;
-  color: red; /* 수정시 눈에 띄기 위해*/
-  list-style: none;
-}
-
 .under_bar {
   border-top: 0.5vw solid #000;
   position: fixed;

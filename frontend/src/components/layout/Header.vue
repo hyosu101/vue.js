@@ -1,12 +1,17 @@
 <template>
-    <header>Memo App</header>
+  <div class="intro">
+    <img src="../../assets/image/intro.png" />
+  </div>
 </template>
 
-<style scoped>
-header {
-    text-align: center;
-    padding: 25px;
-    border-bottom: 1px solid #eee;
-    background: #f7f7f7;
+<style lang="scss" scoped>
+.intro {
+  width: 100%;
+
+  img {
+    position: static;
+    height: auto;
+    width: 100vw;
+  }
 }
 </style>

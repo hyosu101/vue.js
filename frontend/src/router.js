@@ -5,6 +5,7 @@ import Point from "./components/views/Point.vue"
 import Affiliate from "./components/views/Affiliate.vue"
 import Calendar from "./components/views/Calendar.vue"
 import StudentCouncil from "./components/views/StudentCouncil.vue"
+import Pacade from "./components/views/Pacade.vue"
 
 
 const routes = [
@@ -14,6 +15,7 @@ const routes = [
     { path: "/Calendar", name: "Calendar", component: Calendar },
     { path: "/StudentCouncil", name: "StudentCouncil", component: StudentCouncil },
     { path: "/Ground", name: "Ground", component: Ground },
+    { path: "/Pacade", name: "Pacade", component: Pacade },
 ];
 
 const router = createRouter({
